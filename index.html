@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy information for the API Automation Portfolio test application.">
+  <title>Privacy Policy — API Automation Portfolio</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #182230; background: #f5f7fa; }
+    body { margin: 0; line-height: 1.6; }
+    main { max-width: 780px; margin: 40px auto; padding: 32px; background: white; border: 1px solid #dce2ea; border-radius: 12px; }
+    h1, h2 { line-height: 1.25; color: #101828; }
+    h1 { margin-top: 0; }
+    li { margin: 8px 0; }
+    .notice { padding: 12px 16px; background: #fff8e6; border-left: 4px solid #e5a000; }
+    .meta { color: #475467; }
+    @media (max-width: 640px) { main { margin: 0; border-radius: 0; padding: 24px 18px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta"><strong>Application:</strong> API Automation Portfolio<br>
+    <strong>Effective date:</strong> 24 November 2026</p>
+
+  <p class="notice"><strong>Draft for review:</strong> confirm that this description matches your actual test and data-handling practices before publishing.</p>
+
+  <h2>Purpose and scope</h2>
+  <p>API Automation Portfolio is a personal software-testing project. It is used by its developer to exercise authorized API scenarios in Uber's sandbox environment. It is not an Uber product, is not affiliated with Uber Technologies, Inc., and is not intended for public sign-up or production ride requests.</p>
+
+  <h2>Information processed during tests</h2>
+  <p>When the developer runs an OAuth or API test, the test may process:</p>
+  <ul>
+    <li>OAuth authorization codes and access tokens needed to authenticate requests;</li>
+    <li>test inputs, which may include pickup and drop-off coordinates supplied for a sandbox scenario;</li>
+    <li>API request identifiers, response status, timing, and response data returned by the sandbox; and</li>
+    <li>test execution results created by the local test runner or its reporting tools.</li>
+  </ul>
+  <p>The project is intended to use synthetic test data and the Uber sandbox only. Do not use real passenger data, production credentials, or production endpoints in this project.</p>
+
+  <h2>How information is used and shared</h2>
+  <p>Test information is used only to authenticate and validate the API scenarios the developer runs. API requests and the information included in them are sent to Uber's sandbox services, which process them under Uber's applicable terms and privacy practices. The project does not sell test information or use it for advertising.</p>
+
+  <h2>Storage and retention</h2>
+  <p>OAuth secrets and access tokens should be kept in local environment variables or an approved CI secret store, never in source control, CSV test data, screenshots, logs, or reports. Local test results and generated reports may remain in the project workspace until the developer deletes them. If a CI service is configured, its authorized users and retention settings may also apply to build artifacts. The developer should review and configure those settings before enabling CI runs against the sandbox.</p>
+
+  <h2>Security</h2>
+  <p>The project is intended to avoid logging authorization headers and secret values. Access to the development machine, repository, and any CI artifacts should be limited to authorized users. No method of storing or transmitting information is completely risk-free.</p>
+
+  <h2>Your choices</h2>
+  <p>This test application is operated by its developer and does not offer public user accounts. The developer can stop tests, remove local test files and reports, and revoke or rotate application credentials through the relevant developer dashboard. Questions about data handled by Uber should be directed to Uber.</p>
+
+  <h2>Changes and contact</h2>
+  <p>This policy will be updated if the project's data handling changes. For questions about this test application, contact: <strong>sagarghosh04@gmail.com</strong>.</p>
+</main>
+</body>
+</html>
